@@ -1,20 +1,36 @@
-🎵 Music Factory – Music Management System
+<h1 align="center">🎵 Music Factory – Music Management System</h1>
 
-Music Factory is a Java Swing-based desktop application designed to manage music data efficiently. It allows users to perform CRUD operations on songs, artists, and albums, along with sorting, searching, and validation features. The application focuses on a simple and intuitive UI/UX for smooth user interaction.
+<p align="center">
+A Java Swing-based desktop application to manage songs, artists, and albums with ease.
+</p>
 
-📌 Features
-🎶 Manage Songs, Artists, and Albums
-➕ Add, ✏️ Update, ❌ Delete records (CRUD operations)
-🔍 Search functionality for quick data retrieval
-📊 Sorting options for better organization
-✅ Input validation to ensure accurate data entry
-🖥️ User-friendly interface using Java Swing
-💾 Efficient data handling
-🛠️ Technologies Used
-Java (Core Java)
-Java Swing (GUI)
-Object-Oriented Programming (OOP)
-📂 Project Structure
+<hr>
+
+<h2>📌 Features</h2>
+<ul>
+  <li>🎶 Manage Songs, Artists, and Albums</li>
+  <li>➕ Add, ✏️ Update, ❌ Delete records (CRUD operations)</li>
+  <li>🔍 Search functionality for quick data retrieval</li>
+  <li>📊 Sorting options for better organization</li>
+  <li>✅ Input validation to ensure accurate data entry</li>
+  <li>🖥️ User-friendly interface using Java Swing</li>
+  <li>💾 Efficient data handling</li>
+</ul>
+
+<hr>
+
+<h2>🛠️ Technologies Used</h2>
+<ul>
+  <li>Java (Core Java)</li>
+  <li>Java Swing (GUI)</li>
+  <li>Object-Oriented Programming (OOP)</li>
+</ul>
+
+<hr>
+
+<h2>📂 Project Structure</h2>
+
+<pre>
 MusicFactory/
 │── src/
 │   ├── model/        # Classes for Song, Artist, Album
@@ -24,26 +40,63 @@ MusicFactory/
 │
 │── resources/        # Icons, images (if any)
 │── README.md
-▶️ How to Run
+</pre>
 
-Clone the repository:
+<hr>
 
-git clone https://github.com/your-username/music-factory.git
-Open the project in your IDE (e.g., IntelliJ IDEA or Eclipse)
+<h2>📸 Screenshots</h2>
 
-Compile and run the main class:
+<p><b>🏠 Main Dashboard</b></p>
+<img src="screenshots/dashboard.png" width="600">
 
-Main.java
-📊 Use Case
+<p><b>🎶 Manage Songs</b></p>
+<img src="screenshots/songs.png" width="600">
 
-Music Factory helps users organize and manage music collections efficiently. It can be used by individuals or small music libraries to maintain structured records of songs, artists, and albums.
+<p><b>👤 Manage Artists</b></p>
+<img src="screenshots/artists.png" width="600">
 
-🚀 Future Improvements
-Database integration (MySQL or SQLite)
-Advanced filtering options
-Audio playback feature
-User authentication system
-Export/import data functionality
-👨‍💻 Author
+<p><b>💿 Manage Albums</b></p>
+<img src="screenshots/albums.png" width="600">
 
-Abhi Karki
+<p><b>🔍 Search & Sort Feature</b></p>
+<img src="screenshots/search_sort.png" width="600">
+
+<hr>
+
+<h2>▶️ How to Run</h2>
+
+<ol>
+  <li>Clone the repository:
+    <pre>git clone https://github.com/your-username/music-factory.git</pre>
+  </li>
+  <li>Open the project in your IDE (IntelliJ IDEA or Eclipse)</li>
+  <li>Compile and run:
+    <pre>Main.java</pre>
+  </li>
+</ol>
+
+<hr>
+
+<h2>📊 Use Case</h2>
+<p>
+Music Factory helps users organize and manage music collections efficiently.
+It is suitable for individuals or small music libraries to maintain structured records.
+</p>
+
+<hr>
+
+<h2>🚀 Future Improvements</h2>
+<ul>
+  <li>Database integration (MySQL or SQLite)</li>
+  <li>Advanced filtering options</li>
+  <li>Audio playback feature</li>
+  <li>User authentication system</li>
+  <li>Export/import data functionality</li>
+</ul>
+
+<hr>
+
+<h2>👨‍💻 Author</h2>
+<p><b>Abhi Karki</b></p>
+
+<p align="center">⭐ Don't forget to star the repo if you like it!</p>
